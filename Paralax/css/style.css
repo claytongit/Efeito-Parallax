@@ -1,0 +1,51 @@
+.header-site{
+	background-image: url(../img/paralax.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 300px;
+}
+
+.body{
+	padding: 100px;
+}
+
+.body-paralax{
+	background-image: url(../img/paralax.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 300px;
+}
+
+.footer{
+	width: 100%;
+	padding: 10px;
+	background-color: #000000e0;
+}
+
+.redes-sociais{
+	padding: 100px;
+}
+
+.redes-sociais a{
+	margin-right: 50px;
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+}
+
+.face:hover{
+	color: #3f51b5d4;
+}
+.insta:hover{
+	color: #b02792d9;
+}
+.lin:hover{
+	color: #2175f3;
+}
+.git:hover{
+	color: #000000b8;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Efeito paralax</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+
+        <section class="header-site" style="text-align: center; color: black;">
+            <div class="container">
+                <h1 style="font-size: 40pt; letter-spacing: 1.5rem; line-height: 1.5;">BEM-VINDO</h1>
+                <p class="lead ">Site desenvolvido para teste de parallax</p>
+                <button class="btn btn-danger">Funcao click jquery</button>
+            </div>
+        </section>
+
+        <section class="body">
+            <div class="container" style="display: flex; flex-direction: row;">
+
+                <div class="card" style="width: 18rem; margin: 25px;">
+                    <img class="card-img-top" src="img/CSS3.jpg"></img>
+                    <div class="card-body">
+                        <h5 class="card-title">CSS 3</h5>
+                        <p class="card-text">Efeito parallax totalmente desenvolvido usando as propriedades background do css 3</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem; margin: 25px;">
+                    <img class="card-img-top" src="img/html5.jpg"></img>
+                    <div class="card-body">
+                        <h5 class="card-title">HTML 5</h5>
+                        <p class="card-text">Site desenvolvido com HTML 5</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem; margin: 25px;">
+                    <img class="card-img-top" src="img/javascript.jpg"></img>
+                    <div class="card-body">
+                        <h5 class="card-title">JS JQuery</h5>
+                        <p class="card-text">Função de alerta do botão desenvolvido em jquery</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="body-paralax" style="text-align: center; color: white;">
+            <div class="container">
+                <h1>Efeito parallax</h1>
+                <p class="lead">O efeito Parallax costuma ser simulado com a técnica de mover imagens de fundo em uma velocidade mais lenta do que as imagens de primeiro plano, criando no nosso cérebro a ilusão de profundidade em planos 2D</p>
+            </div>
+        </section>
+
+        <section class="redes-sociais" style="text-align: center;">
+            <div class="container">
+                <a href="#" class="face"><img src="img/facebook.png">Facebook</a>
+                <a href="#" class="insta"><img src="img/instagram.png">Instagram</a>
+                <a href="#" class="lin"><img src="img/linkedin.png">Linkedin</a>
+                <a href="#" class="git"><img src="img/github.png">GitHub</a>
+            </div>
+        </section>
+
+        <section class="footer" style="color: white; text-align: center;">
+            <div class="container">
+                <p class="lead">Site desenvolvido por <span style="font-style: italic;">Clayton Tavares</span></p>
+            </div>
+        </section>
+
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+
+        <script type="text/javascript">
+            $('.btn').click(function(){
+                alert("desenvolvido apenas para testes e aprendizado!");
+            });
+        </script>
+    </body>
+</html>
